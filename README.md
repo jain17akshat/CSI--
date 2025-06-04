@@ -1,12 +1,28 @@
-# React + Vite
+# React Form Validation with Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application built with Vite demonstrating a multi-field form with client-side validation, error messages, disabled submit button until valid, and routing to show submitted data on a success page.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Form fields:**  
+  First Name, Last Name, Username, Email, Password (show/hide toggle), Phone Number (country code + number), Country, City, PAN No., Aadhar No.
 
-## Expanding the ESLint configuration
+- **Validation:**  
+  Required fields, email format, phone format, and basic input validations without third-party libraries.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **UX:**  
+  Inline error messages for invalid inputs. Submit button disabled until all fields are valid.
+
+- **Routing:**  
+  Uses React Router to navigate from the form to a success page displaying submitted data.
+
+- **Styling:**  
+  Styled using Tailwind CSS for a clean and responsive UI.
+
+## Setup and Run
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/jain17akshat/CSI--.git
+   cd CSI--
